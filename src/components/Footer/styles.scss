@@ -1,16 +1,20 @@
-.mainFooter {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.footer {
     padding: 45px 0;
-    div {
-        font-size: 25px;
-        font-weight: 700;
-        &.small {
-            font-size: 12px;
-            font-weight: 400;
-            &:first-child {
-                text-align: right;
+    background: #20003C;
+    color: #fff;
+    .mainFooter {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        div {
+            font-size: 25px;
+            font-weight: 700;
+            &.small {
+                font-size: 12px;
+                font-weight: 400;
+                &:first-child {
+                    text-align: right;
+                }
             }
         }
     }

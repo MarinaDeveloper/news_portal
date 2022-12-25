@@ -10,11 +10,14 @@
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     text-decoration: none;
-    color: #333d51;
+    color: #000;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(192, 192, 192, 0.5);
+    border-radius: 7px; 
     &:hover {
         background-color: #f6f7f7;
         .title {
-            background-color: #004fec;
+            background-color: #6F2CFF;
             color: #fff;
         }
     }
@@ -30,7 +33,7 @@
             left: -24px;
             height: 100%;
             width: 2px;
-            background-color: #004fec;
+            background-color: #6F2CFF;
         }
     }
     .bottomWrapper {

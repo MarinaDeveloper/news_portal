@@ -1,5 +1,5 @@
 import React from "react";
-import NewsItem from "./components/NewsList";
+import NewsItem from "./components/NewsItem";
 
 import { INewsDetail } from 'types/INewsDetail';
 

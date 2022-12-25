@@ -1,6 +1,4 @@
 .mainWrapper {
-    margin: 0 auto;
-    max-width: 1140px;
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -11,13 +9,14 @@
         margin-left: calc(-50vw + 50%);
         background: #fff;
         padding-top: 40px;
-        .container {
-            margin: 0 auto;
-            max-width: 1140px;
-        }
+
     }
 
     footer {
         flex: 0 0 auto;
+    }
+    .container {
+        margin: 0 auto;
+        max-width: 1140px;
     }
 }

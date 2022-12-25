@@ -9,19 +9,23 @@ import './styles.scss';
 
 const Header = () => {
     return (
-      <header className="mainHeader">
-        <div className="title">News of the day</div>
-        <nav>
-          <NavLink to={routeMainPage()}>
-            Home
-          </NavLink>
-          <NavLink to={routeNewsListPage()}>
-            News
-          </NavLink>
-          <NavLink to={routeContacts()}>
-            Contacts
-          </NavLink>
-        </nav>
+      <header className="header">
+        <div className='container'>
+          <div className="mainHeader">
+            <div className="title">News of the day</div>
+            <nav>
+              <NavLink to={routeMainPage()}>
+                Home
+              </NavLink>
+              <NavLink to={routeNewsListPage()}>
+                News
+              </NavLink>
+              <NavLink to={routeContacts()}>
+                Contacts
+              </NavLink>
+            </nav>
+          </div>
+        </div>
       </header>
     );
 }

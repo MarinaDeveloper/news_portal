@@ -1,21 +1,27 @@
-.mainHeader {
-    display: flex;
-    justify-content: space-between;
+.header {
     padding: 45px 0;
-    .title {
-        font-size: 25px;
-        font-weight: 700;
-    }
-    nav {
-        a {
-            margin-left: 35px;
-            font-size: 18px;
-            font-weight: 400;
-            &.active {
-                color: #004FEC;
-            }
-            &:first-child {
-                margin-left: 0;
+    background: rgb(62,1,164);
+    background: linear-gradient(90deg, rgba(62,1,164,1) 0%, rgba(23,0,45,1) 100%);
+    color: #fff;
+    .mainHeader {
+        display: flex;
+        justify-content: space-between;
+        .title {
+            font-size: 25px;
+            font-weight: 700;
+        }
+        nav {
+            a {
+                margin-left: 35px;
+                font-size: 18px;
+                font-weight: 400;
+                color: rgb(207, 207, 207);
+                &.active {
+                    color: #fff;
+                }
+                &:first-child {
+                    margin-left: 0;
+                }
             }
         }
     }
