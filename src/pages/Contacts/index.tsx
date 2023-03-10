@@ -10,19 +10,20 @@ const Contacts = () => {
         <section className="contactsPage">
             <div className="info">
                 <div className="phone">
-                    <a href="tel:+38050150150">+380 50 150 150</a>
+                    <a href="tel:+380508007060">+380 50 800 70 60</a>
                 </div>
                 <div className="name">
-                    Marina <br/> Merkotan
+                    Maryna <br/> Merkotan
+                </div>
+            
+                <div className="position">
+                    E-mail редакції:
                 </div>
                 <div className="mail">
-                    <a href="mailto:mail@gmail.com">mail@gmail.com</a>
-                </div>
-                <div className="position">
-                    Frontent Developer
+                    <a href="mailto:your_email@gmail.com">your_email@gmail.com</a>
                 </div>
                 <div className="technologies">
-                    HTML CSS JS
+                    ©2000-2023
                 </div>
             </div>
             <div className="image">

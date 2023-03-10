@@ -14,7 +14,6 @@ const Footer = () => {
                 Single Page Application
               </div>
             </div>
-            <div className="small">Graduate work</div>
             <div>
               <div className="small">Made by</div>
               Maryna Merkotan

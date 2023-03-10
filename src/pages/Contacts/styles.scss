@@ -1,4 +1,5 @@
 .contactsPage {
+    margin-top: 60px;
     display: flex;
     justify-content: space-between;
     .info {
@@ -6,27 +7,29 @@
         .phone {
             a {
                 font-size: 60px;
-                color: #004fec;
+                color: #7E0019;
             }
             margin-bottom: 50px;
         }
         .name {
             padding-left: 23px;
-            border-left: 1px solid #004fec;
+            border-left: 1px solid #7E0019;
             font-size: 25px;
             margin-bottom: 25px;
         }
         .mail {
             a {
-                color: #333d51;
                 font-size: 20px;
+                &:hover {
+                    color: #7E0019;
+                }
             }
         margin-bottom: 52px;
         }
         .position {
-            color: rgba(51, 61, 81, 0.5);
+            opacity: 0.5;
             font-size: 20px;
-            margin-bottom: 25px;
+            margin-bottom: 10px;
         }
         .technologies {
             font-size: 20px;
